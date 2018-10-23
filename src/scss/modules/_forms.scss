@@ -1,0 +1,23 @@
+.form {
+	&__input {
+		width: 300px;
+		&::placeholder {
+			color: $grey;
+		}
+	}
+	&__search {
+		padding-left: 10px;
+		border-color: $card-grey;
+		&__icon {
+			position: absolute;
+			top: 15%;
+			right: 16px;
+		}
+	}
+	&__label {
+		position: relative;
+	}
+	&__sm {
+		width: 200px;
+	}
+}

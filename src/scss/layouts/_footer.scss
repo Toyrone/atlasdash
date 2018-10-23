@@ -1,0 +1,14 @@
+.footer {
+	text-align: center;
+	background: $blue-dark;
+	color: lighten($white, 20%);
+	padding: 15px;
+	font-size: 14px;
+	line-height: 1rem;
+	@media #{$mobile} {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		left: 0;
+	}
+}
